@@ -24,6 +24,7 @@ section{
 	color:white;
 	align-items: center;
 	justify-content: center;
+	position: relative;
 }
 section div{
 	display: flex;
@@ -31,4 +32,9 @@ section div{
 	align-items: center;
 	font-size: 50px;	
 	font-family: Montserrat
+}
+section canvas{
+	position: absolute;
+	top: 0;
+	left: 0
 }
